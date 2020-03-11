@@ -9,13 +9,21 @@ package codexam;
  *
  * @author sverdecadilla
  */
+
+//Creo una clase a mayores en la que tengo dos valores
 public class pruebas {
     public int Dato1=50;
     public int Dato2=50;
-
+/**
+ * 
+ */
     public pruebas() {
     }
-
+/**
+ * constructor vacio para la clase pruebas
+ * @return 
+ */
+    //inicializo ambos valores con sus set y get correspondiente
     public int getDato1() {
         return Dato1;
     }
