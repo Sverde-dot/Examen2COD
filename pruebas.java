@@ -10,10 +10,11 @@ package codexam;
  * @author sverdecadilla
  */
 
-//Creo una clase a mayores en la que tengo dos valores
+//Creo una clase a mayores en la que tengo tres valores
 public class pruebas {
     public int Dato1=50;
     public int Dato2=50;
+    public int Dato3=50;
 /**
  * 
  */
@@ -38,6 +39,14 @@ public class pruebas {
 
     public void setDato2(int Dato2) {
         this.Dato2 = Dato2;
+    }
+
+    public int getDato3() {
+        return Dato3;
+    }
+
+    public void setDato3(int Dato3) {
+        this.Dato3 = Dato3;
     }
     
     
