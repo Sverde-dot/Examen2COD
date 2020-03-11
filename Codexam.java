@@ -16,6 +16,10 @@ public class Codexam {
      */
     public static void main(String[] args) {
         System.out.println("Este es el examen de COD para la segunda evaluacion");
+        pruebas valores = new pruebas();
+        System.out.println("El dato 1 es: "+valores.Dato1);
+        System.out.println("El dato 2 es: "+valores.Dato2);
+        System.out.println("La suma de los valores es: " +valores.Dato1+valores.Dato2);
     }
     
 }
